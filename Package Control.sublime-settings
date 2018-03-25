@@ -23,6 +23,7 @@
 		"SingleTrailingNewLine",
 		"SublimeCodeIntel",
 		"SublimeLinter",
+		"SublimeLinter-contrib-yamllint",
 		"SublimeLinter-golint",
 		"SublimeLinter-gotype",
 		"Theme - Soda SolarizedDark",
