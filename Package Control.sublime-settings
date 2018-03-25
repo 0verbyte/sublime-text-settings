@@ -1,0 +1,31 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"CMake",
+		"DocBlockr",
+		"DocBlockr_Python",
+		"Dockerfile Syntax Highlighting",
+		"GitGutter",
+		"GoSublime",
+		"JSON Reindent",
+		"JSONLint",
+		"LaTeXTools",
+		"Markdown Preview",
+		"nginx",
+		"Package Control",
+		"Python 3",
+		"Python Completions",
+		"Python PEP8 Autoformat",
+		"SingleTrailingNewLine",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-golint",
+		"SublimeLinter-gotype",
+		"Theme - Soda SolarizedDark",
+		"Theme - Spacegray"
+	]
+}
