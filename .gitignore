@@ -4,5 +4,6 @@
 /Package Control.user-ca-bundle
 /oscrypto-ca-bundle.crt
 GoSublime/osx-x64/
+GoSublime-aux.sublime-settings
 
 .DS_Store
