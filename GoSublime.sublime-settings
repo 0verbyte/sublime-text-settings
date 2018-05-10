@@ -11,6 +11,9 @@
       // also see: the documentation for the `shell` setting in the default settings file ctrl+dot,ctrl+4
       {"cmd": ["golint *.go"], "shell": true},
 
+      // run gofmt on all files
+      {"cmd": ["gofmt *.go"], "shell": true},
+
       // run go vet on the package
       {"cmd": ["go", "vet"]},
 
