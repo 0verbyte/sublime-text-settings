@@ -15,7 +15,7 @@
 		"JSON Reindent",
 		"JSONLint",
 		"LaTeXTools",
-		"Markdown Preview",
+		"MarkdownPreview",
 		"nginx",
 		"Package Control",
 		"Python 3",
@@ -28,6 +28,7 @@
 		"SublimeLinter-golint",
 		"SublimeLinter-gotype",
 		"Theme - Soda SolarizedDark",
-		"Theme - Spacegray"
+		"Theme - Spacegray",
+		"TOML"
 	]
 }
