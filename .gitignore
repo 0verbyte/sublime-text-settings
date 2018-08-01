@@ -1,5 +1,5 @@
 *
 !.gitignore
+!Package Control.sublime-settings
 !Preferences.sublime-settings
 !GoSublime.sublime-settings
-!Preferences.sublime-settings
