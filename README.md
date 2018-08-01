@@ -1,6 +1,6 @@
 # Sublime Text Configurations
 
-Clone this repo into `~/Library/Application Support/Sublime Text 3/Packages/User`
+Clone this repo into `~/Library/Application Support/Sublime Text 3/Packages/User` and restart Sublime Text.
 
 ## OS X
 Disable press and hold character variations to enable key repeat. Enter this into your terminal:
