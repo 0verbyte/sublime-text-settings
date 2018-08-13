@@ -2,6 +2,12 @@
 
 Clone this repo into `~/Library/Application Support/Sublime Text 3/Packages/User` and restart Sublime Text.
 
+golint is required to get lint highlights in Go source files.
+
+```
+go get -u golang.org/x/lint/golint
+```
+
 ## OS X
 Disable press and hold character variations to enable key repeat. Enter this into your terminal:
 
