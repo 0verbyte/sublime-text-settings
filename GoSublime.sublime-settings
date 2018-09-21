@@ -8,7 +8,7 @@
 	// e.g "env": { "PATH": "$HOME/go/bin:$PATH" }
 	// in values, $PATH and ${PATH} are replaced with
 	// the corresponding environment(PATH) variable, if it exists.
-	"env": {},
+	"env": {"GOPATH": "$HOME/go", "PATH": "$GOPATH/bin:$PATH"},
 
 	// if set, whenever possible `GOPATH` will be set to `GS_GOPATH`.
 	// please see `Usage & Tips` `ctrl+dot,ctrl+2`
@@ -49,7 +49,7 @@
 	//
 	// You might need to increase `ipc_timeout` below if you use this setting.
 	// If `fmt_cmd` takes too long, the internal MarGo fmt will be tried instead.
-	"fmt_cmd": ["goimports",],
+	"fmt_cmd": ["goimports"],
 
 	// ipc_timeout sets the maximum amount of time time in seconds to wait for a blocking ipc call to MarGo.
 	// Due to limitations in Sublime Text, fmt cannot be done without freezing Sublime Text.
@@ -86,7 +86,17 @@
 	//        setting this to true, you can e.g automate the actual installation of your commands
 	// additionally, for `shell` and `global` if the value is not `true` then it's assumed to be false
 	"comp_lint_commands": [
-		{"cmd": ["go", "install"]}
+			// run `golint` on all files in the package
+	    // "shell":true is required in order to run the command through your shell (to expand `*.go`)
+	    // also see: the documentation for the `shell` setting in the default settings file ctrl+dot,ctrl+4
+	    {"cmd": ["golint *.go"], "shell": true},
+
+	    // run go vet on the package
+	    {"cmd": ["go", "vet"]},
+
+	    // run `go install` on the package. GOBIN is set,
+	    // so `main` packages shouldn't result in the installation of a binary
+	    {"cmd": ["go", "install"]}
 	],
 
 	// how long to wait after the last keystroke before the gslint_cmd command is run (in milliseconds)
@@ -200,7 +210,9 @@
 	// commands to run on (post) save - list of objects of the form {"cmd": "...", "args": {...}}
 	// Any TextCommand may be run. Supported GS commands include:
 	//     gs_comp_lint - compile the pkg and report any errors
-	"on_save": [],
+	"on_save": [
+		{"cmd": "gs_comp_lint"}
+	],
 
 	// as an alternative to Sublime Text's snippet system you may add snippets to GoSublime's
 	// code-completion by adding them to your user settings in the same format as bellow.

@@ -1,0 +1,11 @@
+// SublimeLinter Settings - User
+{
+  "linters": {
+    "flake8": {
+      "args": [
+        "--ignore", "E111,E114,E121,E126,E127,E302,E305,E226,E41",
+        "--max-line-length", "80"
+      ]
+    }
+  }
+}
