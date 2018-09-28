@@ -1,4 +1,11 @@
 {
+	"auto_complete_triggers":
+	[
+		{
+			"characters": ".",
+			"selector": "source.go"
+		}
+	],
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
 	"draw_indent_guides": true,
@@ -19,7 +26,6 @@
 	[
 		80
 	],
-	"auto_complete_triggers": [ {"selector": "source.go", "characters": "."} ],
 	"scroll_past_end": true,
 	"show_encoding": true,
 	"show_line_endings": true,
