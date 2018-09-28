@@ -1,4 +1,4 @@
-# Sublime Text Configurations
+# Sublime Text Settings
 
 ## Installation
 1. Clone this repo into `~/Library/Application Support/Sublime Text 3/Packages/User`
