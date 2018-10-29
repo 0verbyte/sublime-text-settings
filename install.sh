@@ -19,4 +19,7 @@ if [ "$(uname)" == "Darwin" ]; then
 
   # default 2 (30 ms)
   defaults write -g KeyRepeat -int 1
+
+  # Setup shellcheck
+  brew install shellcheck
 fi

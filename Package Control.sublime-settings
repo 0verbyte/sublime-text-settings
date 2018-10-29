@@ -29,6 +29,7 @@
 		"SublimeLinter",
 		"SublimeLinter-golint",
 		"SublimeLinter-gotype",
+		"SublimeLinter-shellcheck",
 		"Terraform",
 		"Theme - Soda SolarizedDark",
 		"Theme - Spacegray",
