@@ -22,6 +22,8 @@
 		"Python 3",
 		"Python Completions",
 		"Python PEP8 Autoformat",
+		"Rust Enhanced",
+		"RustFmt",
 		"SingleTrailingNewLine",
 		"SublimeCodeIntel",
 		"SublimeLinter",
