@@ -1,0 +1,9 @@
+{
+	"clients":
+	{
+		"golsp":
+		{
+			"enabled": true
+		}
+	}
+}
