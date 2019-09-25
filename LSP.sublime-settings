@@ -1,7 +1,7 @@
 {
 	"clients":
 	{
-		"golsp":
+		"gopls":
 		{
 			"enabled": true
 		},
@@ -9,5 +9,6 @@
 		{
 			"enabled": true
 		}
-	}
+	},
+	"only_show_lsp_completions": true
 }

@@ -8,6 +8,11 @@ set -euf -o pipefail
 go get -u golang.org/x/tools/cmd/goimports
 go get -u golang.org/x/tools/cmd/godoc
 go get -u golang.org/x/lint/golint
+GO111MODULE=on go get golang.org/x/tools/gopls@latest
+
+# Rust packages specific to LSP
+rustup update
+rustup component add rls rust-analysis rust-src
 
 # Darwin = MacOS
 if [ "$(uname)" == "Darwin" ]; then
