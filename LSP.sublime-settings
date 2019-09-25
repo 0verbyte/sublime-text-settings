@@ -4,6 +4,10 @@
 		"golsp":
 		{
 			"enabled": true
+		},
+		"rls":
+		{
+			"enabled": true
 		}
 	}
 }
