@@ -14,6 +14,9 @@ GO111MODULE=on go get golang.org/x/tools/gopls@latest
 rustup update
 rustup component add rls rust-analysis rust-src
 
+# Bash LSP
+npm i -g bash-language-server
+
 # Darwin = MacOS
 if [ "$(uname)" == "Darwin" ]; then
   # Disable press and hold character variations

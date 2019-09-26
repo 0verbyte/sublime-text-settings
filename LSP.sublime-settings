@@ -1,17 +1,22 @@
 {
 	"clients":
 	{
+		"bashls":
+		{
+			"enabled": true
+		},
 		"clangd":
 		{
-			"enabled": true,
-			"command" : [
+			"command":
+			[
 				"clangd",
 				"-j",
 				"2",
 				"--background-index",
 				"--log",
 				"error"
-			]
+			],
+			"enabled": true
 		},
 		"gopls":
 		{
