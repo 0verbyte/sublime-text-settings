@@ -27,4 +27,10 @@ if [ "$(uname)" == "Darwin" ]; then
 
   # Setup shellcheck
   brew install shellcheck
+
+  # LSP for C/C++
+  brew install llvm
+
+  # If Mac OS X run (todo:brandon) add OS X version check before running open
+  open /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg
 fi

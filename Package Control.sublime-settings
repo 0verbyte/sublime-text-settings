@@ -20,7 +20,6 @@
 		"SublimeLinter-golint",
 		"SublimeLinter-pylint",
 		"SublimeLinter-shellcheck",
-		"Theme - Soda SolarizedDark",
-		"Theme - Spacegray",
+		"Theme - Spacegray"
 	]
 }

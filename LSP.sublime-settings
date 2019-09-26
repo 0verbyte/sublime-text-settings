@@ -1,6 +1,18 @@
 {
 	"clients":
 	{
+		"clangd":
+		{
+			"enabled": true,
+			"command" : [
+				"clangd",
+				"-j",
+				"2",
+				"--background-index",
+				"--log",
+				"error"
+			]
+		},
 		"gopls":
 		{
 			"enabled": true
