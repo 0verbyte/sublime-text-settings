@@ -8,6 +8,7 @@
 		"CMake",
 		"DocBlockr",
 		"GitGutter",
+		"Gofmt",
 		"JSON Reindent",
 		"LSP",
 		"MarkdownPreview",

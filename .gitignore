@@ -2,7 +2,6 @@
 !.gitignore
 !Package Control.sublime-settings
 !Preferences.sublime-settings
-!GoSublime.sublime-settings
-!SublimeLinter.sublime-settings
 !install.sh
 !LSP.sublime-settings
+!Gofmt.sublime-settings
