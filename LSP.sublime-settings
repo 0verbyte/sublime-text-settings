@@ -25,6 +25,10 @@
 		"rls":
 		{
 			"enabled": true
+		},
+		"pyls":
+		{
+			"enabled": true
 		}
 	},
 	"only_show_lsp_completions": true

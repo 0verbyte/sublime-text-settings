@@ -17,6 +17,9 @@ rustup component add rls rust-analysis rust-src
 # Bash LSP
 npm i -g bash-language-server
 
+# Python LSP: https://github.com/palantir/python-language-server
+pip install python-language-server
+
 # Darwin = MacOS
 if [ "$(uname)" == "Darwin" ]; then
   # Disable press and hold character variations
