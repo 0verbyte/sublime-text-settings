@@ -17,6 +17,7 @@
 		"Package Control",
 		"Protocol Buffer Syntax",
 		"RustFmt",
-		"Theme - Spacegray"
+		"Theme - Spacegray",
+		"TOML"
 	]
 }
