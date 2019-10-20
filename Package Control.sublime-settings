@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"Anaconda",
+		"Babel",
 		"CMake",
 		"DocBlockr",
 		"GitGutter",
