@@ -13,6 +13,7 @@
 	"enable_tab_scrolling": false,
 	"ensure_newline_at_eof_on_save": true,
 	"font_size": 12,
+	"font_face": "JetBrains Mono",
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
