@@ -14,7 +14,9 @@
 				"2",
 				"--background-index",
 				"--log",
-				"error"
+				"error",
+				"--limit-results",
+				"20",
 			],
 			"enabled": true
 		},
