@@ -33,9 +33,9 @@
 	"show_encoding": true,
 	"show_line_endings": true,
 	"spacegray_fileicons": true,
+	"spell_check": true,
 	"tab_size": 2,
 	"theme": "Spacegray Eighties.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
-	"spell_check": true,
+	"trim_trailing_white_space_on_save": true
 }
