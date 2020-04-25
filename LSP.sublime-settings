@@ -31,6 +31,16 @@
 		"pyls":
 		{
 			"enabled": true
+		},
+		"slanglsp":
+		{
+			"enabled": false,
+			"languageId" : "slang",
+			"scopes": ["source.slang"],
+			"command" : ["slanglsp"],
+			"syntaxes" : [
+				"Packages/Slang/slang-syntax.sublime-syntax"
+			]
 		}
 	},
 	"only_show_lsp_completions": true
