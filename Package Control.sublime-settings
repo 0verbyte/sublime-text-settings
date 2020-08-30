@@ -9,6 +9,7 @@
 		"Babel",
 		"CMake",
 		"DocBlockr",
+		"EditorConfig",
 		"GitGutter",
 		"Gofmt",
 		"JSON Reindent",
