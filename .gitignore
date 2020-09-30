@@ -5,3 +5,4 @@
 !install.sh
 !LSP.sublime-settings
 !Gofmt.sublime-settings
+!clang_format.sublime-settings
