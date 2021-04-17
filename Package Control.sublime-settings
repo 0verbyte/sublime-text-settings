@@ -5,7 +5,6 @@
 	],
 	"installed_packages":
 	[
-		"Babel",
 		"Clang Format",
 		"CMake",
 		"DocBlockr",
@@ -14,7 +13,6 @@
 		"Gofmt",
 		"JSON Reindent",
 		"LSP",
-		"MarkdownPreview",
 		"Package Control",
 		"Protocol Buffer Syntax",
 		"Rust Enhanced",

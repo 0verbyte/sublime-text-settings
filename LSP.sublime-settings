@@ -16,7 +16,7 @@
 				"--log",
 				"error",
 				"--limit-results",
-				"20",
+				"20"
 			],
 			"enabled": true
 		},
@@ -30,17 +30,24 @@
 		},
 		"slanglsp":
 		{
+			"command":
+			[
+				"slanglsp"
+			],
 			"enabled": false,
-			"languageId" : "slang",
-			"scopes": ["source.slang"],
-			"command" : ["slanglsp"],
-			"syntaxes" : [
+			"languageId": "slang",
+			"scopes":
+			[
+				"source.slang"
+			],
+			"syntaxes":
+			[
 				"Packages/Slang/slang-syntax.sublime-syntax"
 			]
 		}
 	},
-	"only_show_lsp_completions": true,
-	"log_stderr": true,
+	"log_debug": true,
 	"log_payloads": true,
-	"log_debug" : true,
+	"log_stderr": true,
+	"only_show_lsp_completions": true
 }
